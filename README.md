@@ -10,3 +10,28 @@ arguments data.txt
 ```
 
 Or copy it to a directory of those in your `echo $PATH` (like `/usr/bin`)
+
+## roles.sh script
+
+A script to create subdirectories for ansible roles in configuration management project
+
+### How to use
+
+Run the script (in `roles` directory) with an argument of a text file listing roles names one per line
+
+```bash
+roles.sh roles.txt
+```
+
+it takes input like:
+
+```
+first role
+second role
+
+third role # comment
+```
+
+Note:
+
+The `cd ../../` line in the script is not the best method, but it does not make problems because the script removes empty lines first
