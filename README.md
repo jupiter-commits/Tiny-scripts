@@ -11,6 +11,12 @@ arguments data.txt
 
 Or copy it to a directory of those in your `echo $PATH` (like `/usr/bin`)
 
+## arguments.sh script
+
+- Removes any empty or whitespace only line
+- Removes comments prepended by '#'
+- Passes line separated arguments
+
 ## roles.sh script
 
 A script to create subdirectories for ansible roles in configuration management project
