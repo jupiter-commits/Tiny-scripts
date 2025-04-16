@@ -41,3 +41,5 @@ third role # comment
 Note:
 
 The `cd ../../` line in the script is not the best method, but it does not make problems because the script removes empty lines first
+
+Also check out my blog article
